@@ -3,7 +3,7 @@ title: "Desarrollo de un Mercado de Deuda Regional"
 subtitle: 
 author: "LUIS ORTIZ CEVALLOS"
 date: "10 de mayo 2021"
-knit: pagedown::chrome_print
+#knit: pagedown::chrome_print
 output:
     xaringan::moon_reader:
      transition: slide
@@ -454,7 +454,7 @@ Disposición de una estrátegia de gestión de la deuda que contemple:
 ### DESAFÍOS 
 
 $$ $$
-2. Apuntalar la infraestructura del Mercado Financiero Regional e integrar Socios
+$2.$ Apuntalar la infraestructura del Mercado Financiero Regional e integrar Socios
 Estratégicos.
 
 ```{r include=FALSE, cache=FALSE, results = 'hide', message = FALSE}
@@ -551,7 +551,22 @@ La consolidación del Sistema de Interconexión de Pagos (SIPA) como una platafo
 - Incorporar las Depositarias Centrales de Valores de los países de la Región como participantes del SIPA.
 - Ver la factibilidad técnica y jurídica de vincularse con el "Trade Repository"
 
- 
+---
+### DESAFÍOS 
+
+$$ $$
+
+$3.$ Mejorar los marcos para la gestión de riesgos soberano en los sistemas financieros de la región.
+
+Los bancos, compañías de seguro y administradoras de pensiones, mantienen una demanda de títulos y valores de deuda soberana por las razones siguientes:
+
+- Gestión de balances
+- Atribuciones de creación de mercado
+- **Legislación y regulación** (El Marco de capital ponderado por riesgo, El Marco del coeficiente de apalancamiento, El Marco de liquidez, etc.)
+- Fragmentación
+- Oportunidades de inversión
+
+
 ---
 ### VISIÓN DEL MERCADO DE DEUDA PÚBLICA (Warehouse approach) <a name="id4"></a>
 

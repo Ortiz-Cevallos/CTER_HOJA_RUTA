@@ -1,0 +1,14 @@
+/* Add maven for code font (keep other xaringan defaults */
+@import url(https://fonts.googleapis.com/css?family=Futura Lt BT);
+@import url(https://fonts.googleapis.com/css?family=Futura Lt BT);
+@import url(https://fonts.googleapis.com/css?family=Futura Lt BT:600,800,600italic);
+@import url(https://fonts.googleapis.com/css?family=Futura Lt BT:600,800);
+
+body { font-family: 'Futura Lt BT'; }
+h1, h2, h3 {
+  font-family: 'Futura Lt BT';
+  font-weight: Futura Lt BT;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Futura Lt BT', monospace; }
+.remark-code-line-highlighted     { background-color: #ffff88; }

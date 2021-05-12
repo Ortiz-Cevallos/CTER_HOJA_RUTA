@@ -1,0 +1,141 @@
+/* Various left and right split columns*/
+
+.pull-left-70 { float: left; width: 66.5%; }
+.pull-right-30 { float: right; width: 28.5%; }
+.pull-right-30 + * { clear: both; }
+
+.pull-left-60 { float: left; width: 57%; }
+.pull-right-40 { float: right; width: 38%; }
+.pull-right-40 + * { clear: both; }
+
+.pull-left-50 { float: left; width: 47.5%; }
+.pull-right-50 { float: right; width: 47.5%; }
+.pull-right-50 + * { clear: both; }
+
+.pull-left-40 { float: left; width: 38%; }
+.pull-right-60 { float: right; width: 57%; }
+.pull-right-60 + * { clear: both; }
+
+.pull-left-30 { float: left; width: 28.5%; }
+.pull-right-70 { float: right; width: 66.5%; }
+.pull-right-70 + * { clear: both; }
+
+/* headers and fonts*/
+h1, h2, h3 {
+  margin-top: 0;
+  padding-top: 0.5em;
+  font-family: 'Oswald';
+  font-weight: 400;
+  margin-left: 0;
+}
+
+.large {
+  font-size: 60px;
+}
+
+.small {
+  font-size: 40px;
+}
+
+/* regular slide */
+.remark-slide-content {
+  background-color: #ffffff;
+  border-bottom: 40px solid #E7B70D;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 1em 3em 1em 3em;
+}
+
+/* inverse slide */
+.inverse {
+  background-color: #121316;
+  color: #ffffff;
+}
+
+/* header colors are the same regardless of inverse or not*/
+.remark-slide-content h1, .inverse h1 {
+  color: #ff5f0f;
+  font-size: 35px;
+}
+
+.remark-slide-content h2, .inverse h2 {
+  color: #b7b7b7;
+  font-size: 30px;
+}
+
+.remark-slide-content h3, .inverse h3 {
+  color: #5b5b5b;
+  font-size: 25px;
+}
+
+/* title slide */
+.title-slide {
+  background-image: url(https://raw.githubusercontent.com/Ortiz-Cevallos/midd_xaringan/master/Logo.jpg);
+  background-position: 50% 15%;
+  background-size: 200px;
+  background-color: #fff;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+.title-slide h1 {
+  color: #084E9B; 
+  padding-top: 250px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 0.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.title-slide h2 {
+  color: #084E9B; 
+  font-size: 25px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.title-slide h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #084E9B; 
+  text-align: left;
+  text-shadow: none;
+  padding: -10px;
+  margin: 0px;
+  line-height: 1;
+}
+
+/* slide number */
+.remark-slide-number {
+  font-size: 10pt;
+  font-family: 'EB Garamond';
+  color: #000000;
+  opacity: 1;
+}
+.inverse .remark-slide-number {
+  font-size: 10pt;
+  font-family: 'EB Garamond';
+  color: #FAFAFA;
+  opacity: 1;
+}
+
+/* code */
+.remark-inline-code {
+  color: #ff4c00;
+  border-radius: 1px;
+  padding: 0;
+  background: #e0e0e0;
+}
+
+.inverse .remark-inline-code {
+  background: #333333;
+}
+
+.remark-code-line-highlighted {
+  background-color: #ffead3;
+}
